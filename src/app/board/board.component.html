@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>Testimonials</h1>
+
+    <div class="testimonial-container"  (scroll)="onScroll($event)">
+        <div class="testimonial" *ngFor="let item of data">
+            <p>{{item.message}}</p>
+        </div>
+    </div>
+</div>
+

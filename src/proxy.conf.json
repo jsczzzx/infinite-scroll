@@ -1,0 +1,8 @@
+{
+    "/api": {
+      "target": "https://api.frontendexpert.io",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }
+  
